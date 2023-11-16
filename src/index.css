@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.bg-cover {
+  background-image: url("./assets/bg-desktop.svg");
+  background-color: hsl(257, 27%, 26%);
+}
